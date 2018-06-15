@@ -19,8 +19,6 @@ git push origin master
 
 
 # assignment-5
-
-
 #prog to take input year from user and decide whether it is leap or not
 year=int(input("enter any year"))
 if(year%400==0)or(year%4==0)and(year%100!=0):
@@ -45,11 +43,11 @@ if(a>b):
   print("a is older")
  else:
   print("c is older")
+else:
+ if(b>c):
+  print("b is older")
  else:
-  if(y>z):
-   print("y is older")
-  else:
-   print("z is older")
+  print("c is older")
    
  #4.Write an if statement to lets competitor know which of these prizes they won.
 a=int(input("Enter the points:"))
@@ -65,7 +63,7 @@ if a<200:
     elif 180<a<200:
         prize="Chocolate"
     if f!=0:
-        print("Congratulations! You won a {}".format(prize))
+       print("Congratulations! You won a {}".format("prize"))
  
 #prog to print total cost for user 
 n=int(input("enter the cost:"))
