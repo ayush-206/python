@@ -39,14 +39,13 @@ print(d)
 
 #sorting of dictionary
 d={'a':20,'b':30,'c':40}
-print(d)
-value_list=list(d.value())
-print(value_list)
-value_list.sort()
-print(value_list)
+values=list(d.values())
+print(values)
+values.sort()
+print(values)
 
 #count the no. of occurence of each letter in word "MISSISSIPPI"
-t=list("MISSISSIPPI")
+l=list("MISSISSIPPI")
 d={}
 d['m']=l.count('m')
 d['i']=l.count('i')
