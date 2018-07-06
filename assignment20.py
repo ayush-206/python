@@ -2,10 +2,10 @@
 #phone number and add your friends’s information to the same.
 import pandas as p
 d={
-    'Name' :['Navjeet','Rukman'],
-    'Age' :[19,19],
-    'Mail_id' :['ghotranavjeet592@gmail.com','bhartirana9050@gmail.com'],
-    'Phone_number' :[95181245677,5465859896]
+    'Name' :['Ayush','Sarthak'],
+    'Age' :[20,21],
+    'Mail_id' :['www.ayush32@gmail.com','www.sarthak15@gmail.com'],
+    'Phone_number' :[7988390399,7876391530]
 }
 df=p.DataFrame(d)
 print(df)
